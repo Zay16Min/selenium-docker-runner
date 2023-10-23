@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Run Test'){
+        stage('Start Grid'){
             steps{
                 sh "docker-compose -f grid.yaml up -d"
             }
