@@ -2,9 +2,6 @@ version: "3.7"
 services:
   hub:
     image: seleniarm/hub:latest
-    container_name: hub
-    ports:
-      - "4444:4444"
   chrome:
     image: seleniarm/node-chromium:latest
     shm_size: 2gb
